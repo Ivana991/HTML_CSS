@@ -1,0 +1,126 @@
+body {
+            width: 1200px;
+            margin: 15px;
+            background-color: rgba(92, 11, 241, 0.158) ;
+            text-align: left;
+}
+
+h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 22pt;
+}
+
+h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+}
+p {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 14pt;
+            background-color: rgba(255, 193, 7, 0.33);
+
+            
+}
+
+nav {
+    float: left;
+    width: auto;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+section { 
+            float: left;
+            width: 950px;
+            padding: 0 0 0 10px;
+            border-left: 2px solid rgba(158, 158, 158, 1);
+            box-sizing: border-box;
+           
+}
+
+span {
+            color: darkred;
+}
+
+
+
+cite {
+            display: block;
+            font-family: cursive, Georgia, 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-size: 14pt;
+            letter-spacing: 1.3pt;
+            text-indent: 22pt;
+            text-shadow: 3px 3px rgba(229, 255, 0, 0.658);
+            line-height: 17px;
+            background-color: rgba(253, 230, 140, 0.4);
+}
+
+#work {
+            background-image: url("books.jpeg");
+            background-size: cover;
+            background-attachment: scroll;
+}
+
+.literary_work {
+            background-color: rgba(255, 193, 7, 0.801);
+}
+
+.link {
+            list-style: url("link.png") square;
+}
+
+table {
+            border: double 3px white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            font-weight: bold;
+            border-collapse: collapse;
+            width: 100%;
+    
+}
+
+tr { 
+            border: double 3px white;
+
+}
+
+td {        border: double 3px white;
+            padding: 5px;
+
+}
+
+th {
+            border: double 3px white;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: rgba(255, 193, 7, 0.801);
+}
+
+.name {
+            background-color: #3f4645;
+            color: #faf38d;
+}
+
+.publisher {
+            background-color: rgba(63, 70, 69, 0.9);
+            font-style: italic;
+            color: #faf38d;
+}
+
+.place {
+            background-color: rgba(63, 70, 69, 0.9);
+            font-style: italic;
+            color: #faf38d;
+}
+
+.year {
+            background-color:rgba(63, 70, 69, 0.9);
+            font-style: italic;
+            color: #faf38d;
+}
+
